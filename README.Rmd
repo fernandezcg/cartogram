@@ -48,7 +48,7 @@ library(tmap)
 data("World")
 
 # keep only the african continent
-afr <- World[World$continent == "Africa", ]
+afr <- World[World$continent == "Europe", ]
 
 # project the map
 afr <- st_transform(afr, 3395)
